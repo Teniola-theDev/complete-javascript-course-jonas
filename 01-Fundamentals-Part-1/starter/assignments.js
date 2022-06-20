@@ -208,7 +208,8 @@ if (dolphinAverageScore > koalaAverageScore && dolphinAverageScore >= 100) {
   console.log("Koalas win o!");
 } else if (
   dolphinAverageScore === koalaAverageScore &&
-  dolphinAverageScore >= 100
+  dolphinAverageScore >= 100 &&
+  koalaAverageScore >= 100
 ) {
   console.log("Draw!");
 } else console.log("No team wins!");
